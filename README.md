@@ -41,7 +41,67 @@ Every patch exposes all options, so presets can be changed. Apply only one DHU a
 app: the app specific "DHU adapter" or "DHU adapter (any app)".
 
 <!-- PATCHES_START -->
-The patch list is generated here by the first release.
+> **[v1.0.0](https://github.com/mormislaw/zeekr-adapt-morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+<details open>
+<summary>📦 Waze&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [DHU adapter](#dhu-adapter) | Adapts the app to an automotive head unit (Zeekr DHU) with a high resolution screen that reports a low density: readable single-DPI scaling, floating back/settings button and the opt-in compatibility fixes of zeekr-adapt. Uses Pine framework hooks installed from android:appComponentFactory before Application.onCreate. Preset: automotive de-mask (isAutomotiveOS → false, blank screen fix). | • Display / UI<br>• Rendering DPI<br>• Layout DPI<br>• Unlock orientation<br>• Fullscreen<br>• Floating button<br>• Floating button opens settings only<br>• Floating button size (dp)<br>• Floating button opacity<br>• Floating button color<br>• Rounded corners<br>• Corner radius (dp)<br>• Font override<br>• WebView user agent<br>• Root bypass<br>• Emulator bypass<br>• Automotive de-mask<br>• Network bypass<br>• SIM ready<br>• Zeekr MediaCenter bridge<br>• Allow screen capture<br>• Debug logging<br>• Copy original signature |
+
+</details>
+
+<details open>
+<summary>📦 Apple Music&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [DHU adapter](#dhu-adapter) | Adapts the app to an automotive head unit (Zeekr DHU) with a high resolution screen that reports a low density: readable single-DPI scaling, floating back/settings button and the opt-in compatibility fixes of zeekr-adapt. Uses Pine framework hooks installed from android:appComponentFactory before Application.onCreate. Preset: root, emulator, network and SIM gate bypass, Zeekr MediaCenter. | • Display / UI<br>• Rendering DPI<br>• Layout DPI<br>• Unlock orientation<br>• Fullscreen<br>• Floating button<br>• Floating button opens settings only<br>• Floating button size (dp)<br>• Floating button opacity<br>• Floating button color<br>• Rounded corners<br>• Corner radius (dp)<br>• Font override<br>• WebView user agent<br>• Root bypass<br>• Emulator bypass<br>• Automotive de-mask<br>• Network bypass<br>• SIM ready<br>• Zeekr MediaCenter bridge<br>• Allow screen capture<br>• Debug logging<br>• Copy original signature |
+
+</details>
+
+<details open>
+<summary>📦 Spotify&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [DHU adapter](#dhu-adapter) | Adapts the app to an automotive head unit (Zeekr DHU) with a high resolution screen that reports a low density: readable single-DPI scaling, floating back/settings button and the opt-in compatibility fixes of zeekr-adapt. Uses Pine framework hooks installed from android:appComponentFactory before Application.onCreate. Preset: Zeekr MediaCenter, original signature for the app's self-check. | • Display / UI<br>• Rendering DPI<br>• Layout DPI<br>• Unlock orientation<br>• Fullscreen<br>• Floating button<br>• Floating button opens settings only<br>• Floating button size (dp)<br>• Floating button opacity<br>• Floating button color<br>• Rounded corners<br>• Corner radius (dp)<br>• Font override<br>• WebView user agent<br>• Root bypass<br>• Emulator bypass<br>• Automotive de-mask<br>• Network bypass<br>• SIM ready<br>• Zeekr MediaCenter bridge<br>• Allow screen capture<br>• Debug logging<br>• Copy original signature |
+
+</details>
+
+<details open>
+<summary>📦 YouTube Music&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [DHU adapter](#dhu-adapter) | Adapts the app to an automotive head unit (Zeekr DHU) with a high resolution screen that reports a low density: readable single-DPI scaling, floating back/settings button and the opt-in compatibility fixes of zeekr-adapt. Uses Pine framework hooks installed from android:appComponentFactory before Application.onCreate. Preset: Zeekr MediaCenter. | • Display / UI<br>• Rendering DPI<br>• Layout DPI<br>• Unlock orientation<br>• Fullscreen<br>• Floating button<br>• Floating button opens settings only<br>• Floating button size (dp)<br>• Floating button opacity<br>• Floating button color<br>• Rounded corners<br>• Corner radius (dp)<br>• Font override<br>• WebView user agent<br>• Root bypass<br>• Emulator bypass<br>• Automotive de-mask<br>• Network bypass<br>• SIM ready<br>• Zeekr MediaCenter bridge<br>• Allow screen capture<br>• Debug logging<br>• Copy original signature |
+
+</details>
+
+<details open>
+<summary>📦 Telegram&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [DHU adapter](#dhu-adapter) | Adapts the app to an automotive head unit (Zeekr DHU) with a high resolution screen that reports a low density: readable single-DPI scaling, floating back/settings button and the opt-in compatibility fixes of zeekr-adapt. Uses Pine framework hooks installed from android:appComponentFactory before Application.onCreate. Preset: Display / UI only. | • Display / UI<br>• Rendering DPI<br>• Layout DPI<br>• Unlock orientation<br>• Fullscreen<br>• Floating button<br>• Floating button opens settings only<br>• Floating button size (dp)<br>• Floating button opacity<br>• Floating button color<br>• Rounded corners<br>• Corner radius (dp)<br>• Font override<br>• WebView user agent<br>• Root bypass<br>• Emulator bypass<br>• Automotive de-mask<br>• Network bypass<br>• SIM ready<br>• Zeekr MediaCenter bridge<br>• Allow screen capture<br>• Debug logging<br>• Copy original signature |
+
+</details>
+
+<details open>
+<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [DHU adapter (any app)](#dhu-adapter-any-app) | Adapts the app to an automotive head unit (Zeekr DHU) with a high resolution screen that reports a low density: readable single-DPI scaling, floating back/settings button and the opt-in compatibility fixes of zeekr-adapt. Uses Pine framework hooks installed from android:appComponentFactory before Application.onCreate. Only Display / UI is on by default, enable the other categories as needed. Do not combine with the app specific "DHU adapter" patch. | • Display / UI<br>• Rendering DPI<br>• Layout DPI<br>• Unlock orientation<br>• Fullscreen<br>• Floating button<br>• Floating button opens settings only<br>• Floating button size (dp)<br>• Floating button opacity<br>• Floating button color<br>• Rounded corners<br>• Corner radius (dp)<br>• Font override<br>• WebView user agent<br>• Root bypass<br>• Emulator bypass<br>• Automotive de-mask<br>• Network bypass<br>• SIM ready<br>• Zeekr MediaCenter bridge<br>• Allow screen capture<br>• Debug logging<br>• Copy original signature |
+
+</details>
+
 <!-- PATCHES_END -->
 
 ## Options
